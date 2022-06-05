@@ -33,6 +33,7 @@ public class PostService {
         post1.setText(post.getText());
         post1.setTitle(post.getTitle());
         post1.setUser(user);
+
         return postRepository.save(post1);
     }
 
